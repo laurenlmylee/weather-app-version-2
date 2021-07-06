@@ -1,16 +1,4 @@
-.card {
-  display: block;
-  margin-top: 80px;
-  margin-left: 100px;
-  width: 900px;
-  position: fixed;
-  border: 2px #42a5f5 solid;
-  box-shadow: 10px 10px 10px rgb(231, 234, 246);
-}
 
-.card-body {
-  margin: 20px;
-}
 
 h1 {
   color: #42a5f5;
@@ -21,21 +9,6 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h2 {
-  font-size: 20px;
-}
-
-h4 {
-  text-transform: uppercase;
-  position: absolute;
-  top: 70px;
-  left: 630px;
-  font-family: "Roboto", sans-serif;
-  color: #42a5f5;
-  font-size: 20px;
-  text-align: right;
-  white-space: nowrap;
-}
 
 body {
   border-radius: 18px;
@@ -103,30 +76,15 @@ input#searchBar {
   color: #42a5f5;
 }
 
-.sunny-icon {
-  display: block;
-  margin: 0 auto;
-  width: 250px;
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  right: 50px;
-  padding: 50px 0 0 0;
-}
 
 .container {
   display: block;
   margin: 0 auto;
 }
 
-.days {
-  color: #939aa9;
-  text-transform: uppercase;
-  font-weight: 600px;
-  text-align: center;
-}
 
-.tomWeather {
+
+/* .tomWeather {
   width: 90px;
   margin: 0;
   padding: 0 12px 0 12px;
@@ -160,7 +118,7 @@ input#searchBar {
   width: 90px;
   margin: 0;
   padding: 0 12px 0 12px;
-}
+} */
 
 #footer {
   font-size: 12px;
