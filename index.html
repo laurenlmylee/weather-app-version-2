@@ -24,23 +24,28 @@
         <div class="card-body">
   <body>
     <h1 id="city">
-      London
+      
     </h1>
 
-<div class="searchBar">
+<div class="row">
+  <div class="col-9">
   <form>
-    <input type="search" autofocus ="on" autocomplete="off" id="search" placeholder="Search City" /> <input type="submit" value="🔍" id="submitButton" />
-  </form>
+    <input type="search" autofocus ="on" autocomplete="off" class="form-control" id="city-input" placeholder="Search City" /></div>
+    <div class="col-3"></div>
+    <input type="submit" value="🔍" id="submitButton" class="btn w-100" />
+  </div>
 </div>
+</form>
+
 
 
 <button type="button" class="btn btn-outline-primary" id="showCurrent">Current</button>
 <div class="currentCondition" id="current-condition">
-  <h2 class="todayTime" id="today-time"></h2>
+  <h2 class="todayTime" id="today-time"><span> Last updated:</span></h2>
   <h3 id="current-temp"></h3>
   <h4 id="condition">Cloudy</h4>
   <span class="units" id="units"><a href="#" id="celsius-link"> °C /</a><a href="#" id="fahrenheit-link"> °F</a> </span>
-<br/><span>Wind  </span><span class="wind" id="current-wind"> 5</span> <span>km/h</span> <br/>
+<br/><span>Wind  </span><span class="wind" id="current-wind"> 5</span> <span>m/s</span> <br/>
 <span>Humidity </span><span class="humidity" id="current-humidity">20</span><span>%</span>
 </div>
 
