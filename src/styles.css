@@ -1,51 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 18px;
 
+}
 
 h1 {
+   display: block;
+   font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;  
   color: #42a5f5;
   text-transform: uppercase;
   font-size: 50px;
-  text-align: center;
-  line-height: 120px;
   font-family: "Josefin Sans", sans-serif;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(240, 240, 240);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.weather-app {
+  display: block;
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #d1e5ff;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  top: -24px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.weather-temperature.active {
+  color: rgb(255, 255, 255);
+  cursor: default;
+}
+
+.weather-temperature.active:hover {
+  text-decoration: none;
 }
 
 
-body {
-  border-radius: 18px;
-}
 
-input {
-  background-color: transparent;
-}
 
-input#searchBar {
+
+
+
+
+input#city-input {
   border-color: #42a5f5, #2897f1;
 }
 
-.searchBar {
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: 25px;
-  left: 20px;
-  border-color: #42a5f5, #2897f1;
-}
 
-#showCurrent {
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: 70px;
-  left: 20px;
-  background-color: #42a5f5;
-  border-color: #2897f1;
-  color: #fff;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-  font-size: 17px;
-}
 
-.currentCondition {
+
+#current-condition {
   font-family: "Roboto", sans-serif;
   color: #42a5f5;
   font-weight: 150px;
