@@ -121,6 +121,11 @@ border:2px #42a5f5 solid;
   padding: 0 12px 0 12px;
 } */
 
+#icon{
+  max-width: 150px;
+  
+}
+
 #footer {
   font-size: 12px;
   text-align: center;
