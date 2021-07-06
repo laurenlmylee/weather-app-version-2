@@ -21,91 +21,52 @@
   </head>
 
   <body>
-    <div class="container">
-    <div class="weather-app-wrapper">
+   <div class="container">
+      <div class="weather-app-wrapper">
         <div class="weather-app">
-   
-  <form id="seach-form" class="mb-3">
-    <div class="row">
-  <div class="col-9">
-    <input type="search" autofocus ="on" autocomplete="off" class="form-control" id="city-input" placeholder="Search City" /></div>
-    <div class="col-3"></div>
-    <input type="submit" value="🔍" id="submitButton"/>
-  </div>
-</div>
-</form>
-<div class="overview">
-   <h1 id="city"></h1>
-  <ul>
-    <li>Last updated: <span id="today-time"></span>
-    </li>
-
-    <li id="current-condition">
-    </li>
-  </ul> 
-</div>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="clearfix weather-temperature">
-      <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Mostly Cloudy" id="icon"/>
-    <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" id="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
-    </div>
-  </div>
-</div>
-<div class="col-sm-6">
-  <ul>
-    <li>Wind: <span id="current-wind"></span><span>m/s</span></li>
-    <li> Humidity: <span id="current-humidity"></span><span>%</span></li>
-  </ul>
-</div>
-<!-- <div class="container days">
- <div class="row">
-  <div class="col-sm-2">Tom</div>
-
-  <div class="col-sm-2">Wed</div>
-  
-  <div class="col-sm-2">Thu</div>
-  <div class="col-sm-2">Fri</div>
-  <div class="col-sm-2">Sat</div>
-  <div class="col-sm-2">Sun</div>
-  <div class="row">
-      <div class="col-sm-2"> 
-        <img class="tomWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" /> 
-      <br/>
-      <div class="temp"> 23° | 14° </div> 
-     </div>
-      <div class="col-sm-2"> 
-          <img class="wedWeather" src="images/sunny icon.png" alt="sun" />
-          <br/>
-          <div class="temp"> 24° | 12° </div> 
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+            <input type="search" autofocus="on" autocomplete="off" placeholder="Type a city..." class="form-control" id="city-input"/>
+            </div>
+             <div class="col-3">
+            <input type="submit" value="search" class="btn btn-primary w-100"/>
+            </div>
+            </div>
+          </form>
+          <div class="overview">
+        <h1 id="city"></h1>
+        <ul>
+          <li>Last updated: <span id="today-time"></span>
+            
+          </li>
+          <li id="current-condition">
+          </li>
+        </ul>
         </div>
-      <div class="col-sm-2"> 
-            <img class="thuWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
-            <br/>
-            <div class="temp"> 25° | 14° </div> 
-          </div>
-      <div class="col-sm-2"> 
-            <img class="friWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
-            <br/>
-            <div class="temp"> 26° | 14° </div> 
-          
-          </div>      
-      <div class="col-sm-2"> 
-            <img class="satWeather" src="images/light rain icon.png" alt="light rain" />
-            <br/>
-            <div class="temp"> 27° | 16° </div> 
-          
-          </div>    
-      <div class="col-sm-2"> 
-            <img class="sunWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
-            <br/>
-            <div class="temp"> 27° | 15° </div> 
-          
-          </div>            
- </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="clearfix weather-temperature">
+<img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Mostly Cloudy" id="icon" class="float-left"/>
+<div class="float-left">
+  <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" id="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
+  </div>
 </div>
-</div> -->
-<small id="footer">2021. <a href="https://objective-pike-b5f111.netlify.app/#" target="_blank">Open-sourced on GitHub</a>hosted on Netlify, by Lauren🐧</small> 
+          </div>
+          <div class="col-sm-6">
+            <ul>
+    
+              <li>
+               Wind: <span id="wind"></span> <span>m/s</span>
+              </li>
+              <li>
+                Humidity: <span id="humidity"></span> <span>%</span>
+              </li>
+            </ul>
+          </div> 
+      </div>
+    </div>
+<small id="footer">2021. <a href="https://objective-pike-b5f111.netlify.app/#" target="_blank">Open-sourced on GitHub</a> hosted on Netlify, by Lauren🐧</small> 
 </div>
 
 

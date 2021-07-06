@@ -86,56 +86,6 @@ border:2px #42a5f5 solid;
 
 
 
-
-
-
-
-input#city-input {
-  border-color: #42a5f5, #2897f1;
-}
-
-
-
-
-#current-condition {
-  font-family: "Roboto", sans-serif;
-  color: #42a5f5;
-  font-weight: 150px;
-  display: block;
-  position: absolute;
-  top: 120px;
-  left: 20px;
-}
-
-.current-temp {
-  color: #939aa9;
-  font-size: 24px;
-  display: block;
-  top: 20%;
-  left: 50%;
-  font-weight: 600px;
-}
-
-.units {
-  position: absolute;
-}
-
-#celsius-link {
-  color: #42a5f5;
-}
-
-#fahrenheit-link {
-  color: #42a5f5;
-}
-
-
-.container {
-  display: block;
-  margin: 0 auto;
-}
-
-
-
 /* .tomWeather {
   width: 90px;
   margin: 0;
