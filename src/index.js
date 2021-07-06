@@ -24,7 +24,7 @@ function formatDate(timestamp) {
 
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#current-temp");
-  let cityElement = document.querySelector("#city");
+  let cityElement = document.querySelector("h1");
   let description = document.querySelector("#current-condition");
   let humidity = document.querySelector("#current-humidity");
   let wind = document.querySelector("#current-wind");
