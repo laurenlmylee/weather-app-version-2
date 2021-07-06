@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link href="src/index.js"/>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+  </head>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+  <body>
+    <h1 id="city">
+      London
+    </h1>
+
+<div class="searchBar">
+  <form>
+    <input type="search" autofocus ="on" autocomplete="off" id="search" placeholder="Search City" /> <input type="submit" value="🔍" id="submitButton" />
+  </form>
+</div>
+
+
+<button type="button" class="btn btn-outline-primary" id="showCurrent">Current</button>
+<div class="currentCondition" id="current-condition">
+  <h2 class="todayTime" id="today-time"></h2>
+  <h3 id="current-temp"></h3>
+  <h4 id="condition">Cloudy</h4>
+  <span class="units" id="units"><a href="#" id="celsius-link"> °C /</a><a href="#" id="fahrenheit-link"> °F</a> </span>
+<br/><span>Wind  </span><span class="wind" id="current-wind"> 5</span> <span>km/h</span> <br/>
+<span>Humidity </span><span class="humidity" id="current-humidity">20</span><span>%</span>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container">
+<img class="sunny-icon" src="images/sunny icon.png" alt="sun icon" /> <br/>
+
+</div>
+</div>
+
+
+<div class="container days">
+ <div class="row">
+  <div class="col-sm-2">Tom</div>
+
+  <div class="col-sm-2">Wed</div>
+  
+  <div class="col-sm-2">Thu</div>
+  <div class="col-sm-2">Fri</div>
+  <div class="col-sm-2">Sat</div>
+  <div class="col-sm-2">Sun</div>
+  <div class="row">
+      <div class="col-sm-2"> 
+        <img class="tomWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" /> 
+      <br/>
+      <div class="temp"> 23° | 14° </div> 
+     </div>
+      <div class="col-sm-2"> 
+          <img class="wedWeather" src="images/sunny icon.png" alt="sun" />
+          <br/>
+          <div class="temp"> 24° | 12° </div> 
+        </div>
+      <div class="col-sm-2"> 
+            <img class="thuWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
+            <br/>
+            <div class="temp"> 25° | 14° </div> 
+          </div>
+      <div class="col-sm-2"> 
+            <img class="friWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
+            <br/>
+            <div class="temp"> 26° | 14° </div> 
+          
+          </div>      
+      <div class="col-sm-2"> 
+            <img class="satWeather" src="images/light rain icon.png" alt="light rain" />
+            <br/>
+            <div class="temp"> 27° | 16° </div> 
+          
+          </div>    
+      <div class="col-sm-2"> 
+            <img class="sunWeather" src="images/cloud+sun icon.png" alt="cloudy with sun" />
+            <br/>
+            <div class="temp"> 27° | 15° </div> 
+          
+          </div>            
+ </div>
+</div>
+</div>
+<span id="footer">2021. This project was coded by Lauren and is <a href="https://reverent-edison-9af69a.netlify.app/" target="_blank">open-sourced on GitHub</a>and hosted on Netlify🐧</span> 
+</div>
+
+
+</div>
+
+    <script src="src/index.js"></script>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+.card {
+  display: block;
+  margin-top: 80px;
+  margin-left: 100px;
+  width: 900px;
+  position: fixed;
+  border: 2px #42a5f5 solid;
+  box-shadow: 10px 10px 10px rgb(231, 234, 246);
+}
+
+.card-body {
+  margin: 20px;
+}
+
+h1 {
+  color: #42a5f5;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 70px;
+  left: 630px;
+  font-family: "Roboto", sans-serif;
+  color: #42a5f5;
+  font-size: 20px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+body {
+  border-radius: 18px;
+}
+
+input {
+  background-color: transparent;
+}
+
+input#searchBar {
+  border-color: #42a5f5, #2897f1;
+}
+
+.searchBar {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  border-color: #42a5f5, #2897f1;
+}
+
+#showCurrent {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  background-color: #42a5f5;
+  border-color: #2897f1;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.currentCondition {
+  font-family: "Roboto", sans-serif;
+  color: #42a5f5;
+  font-weight: 150px;
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+
+.current-temp {
+  color: #939aa9;
+  font-size: 24px;
+  display: block;
+  top: 20%;
+  left: 50%;
+  font-weight: 600px;
+}
+
+.units {
+  position: absolute;
+}
+
+#celsius-link {
+  color: #42a5f5;
+}
+
+#fahrenheit-link {
+  color: #42a5f5;
+}
+
+.sunny-icon {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  padding: 50px 0 0 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+}
+
+.days {
+  color: #939aa9;
+  text-transform: uppercase;
+  font-weight: 600px;
+  text-align: center;
+}
+
+.tomWeather {
+  width: 90px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+}
+
+.wedWeather {
+  width: 90px;
+  margin: 0 auto;
+  padding: 0 12px 0 18px;
+}
+
+.thuWeather {
+  width: 90px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+}
+
+.friWeather {
+  width: 90px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+}
+
+.satWeather {
+  width: 90px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+}
+
+.sunWeather {
+  width: 90px;
+  margin: 0;
+  padding: 0 12px 0 12px;
+}
+
+#footer {
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+}
