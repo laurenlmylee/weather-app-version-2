@@ -19,23 +19,38 @@
 
 
   </head>
-<div class="container">
-    <div class="card">
-        <div class="card-body">
-  <body>
-    <h1 id="city">
-      
-    </h1>
 
-<div class="row">
+  <body>
+    <div class="container">
+    <div class="weather-app-wrapper">
+        <div class="weather-app">
+   
+  <form id="seach-form" class="mb-3">
+    <div class="row">
   <div class="col-9">
-  <form>
     <input type="search" autofocus ="on" autocomplete="off" class="form-control" id="city-input" placeholder="Search City" /></div>
     <div class="col-3"></div>
     <input type="submit" value="🔍" id="submitButton" class="btn w-100" />
   </div>
 </div>
 </form>
+<div class="overview">
+   <h1 id="city"></h1>
+  <ul>
+    <li>Last updated: <span id="today-time"></span>
+    </li>
+
+    <li id="current-condition">
+    </li>
+  </ul> 
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="clearfix weather-temperature">
+      
+    </div>
+  </div>
+</div>
 
 
 
